@@ -1,0 +1,78 @@
+
+
+
+.Navbar{
+    width:100%;
+    padding:20px 10px;
+    transform:translateX(-0.5rem);
+    margin-left:20rem;
+    border-radius:10px;
+    background: linear-gradient(to right, #141E30, #243B55); 
+    transform:translateX(-21rem);
+}
+
+
+
+
+
+.SearchButton{
+    width:5rem;
+    height:2.9rem;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    transform:translateX(-0.5rem);
+    cursor: pointer;
+    color:black;
+    font-weight:bold;
+    letter-spacing:0.5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:2.9rem;
+    border:1px solid black;
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    letter-spacing:1px;
+    transform:translateX(18rem);
+    font-family: 'Montserrat', sans-serif;
+}
+.SearchButton:hover{
+        background: linear-gradient(to right, #141E30, #243B55); 
+        color:white;
+        font-weight:bold;
+        letter-spacing:1px;
+        transition:all 0.3s ease;
+}
+nav input{
+    width:20rem;
+    height:3rem;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    border:1px solid black;
+    margin:1rem;
+    text-indent:1rem;
+    transform:translateX(18rem);
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    color:black;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav input:hover{
+    cursor:hover;
+    background: linear-gradient(to right, #141E30, #243B55); 
+    color:white;
+    letter-spacing:1px;
+    font-weight:bold;
+    transition:all 0.3ease;
+}
+nav input::placeholder{
+    text-indent:1rem;
+    color:black;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}
+
+
+nav input:hover::placeholder {
+    color: white;
+}
